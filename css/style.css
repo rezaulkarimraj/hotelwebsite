@@ -1,0 +1,250 @@
+/* Reset The margin and padding */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7em; 
+}
+a{
+    color:#333;
+    text-decoration: none;
+}
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+/* utlity class */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 10px;
+}
+.text-primary {
+    color:#f7c08a;
+}
+.logo{
+    font-weight: 900;
+}
+.lead{
+    font-size: 18px;
+}
+.btn{
+    display:inline-block;
+    background:#333;
+    color:#fff;
+    font-size:18px;
+    padding:13px 20px;
+    border: none;
+    cursor:pointer;
+    border-radius:5px;
+}
+.btn:hover{
+    background:#f7c08a;
+    color:#333;
+}
+.bg-light{
+    background:#f4f4f4;
+    color:#333;
+}
+
+.bg-dark{
+    background:#333;
+    color:#fff;
+}
+.bg-primary{
+    background:#f7c08a;
+    color:#333;
+}
+.cls{
+    clear: both;
+}
+.l-heading{
+    font-size:40px;
+    line-height: 1em;
+}
+.py-1{ padding:10px 0;}
+.py-2{ padding:20px 0;}
+.py-3{ padding:30px 0;}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Navbar */
+#navbar{
+    background-color:#333;
+    color:#fff;
+    overflow:auto;
+}
+#navbar a{
+    color:#fff;
+}
+#navbar .logo{
+    float:left;
+    padding-top: 20px;
+}
+#navbar ul{
+    float:right;
+    list-style:none;
+}
+#navbar ul li{
+    float:left;
+}
+#navbar ul li a{
+    display: block;
+    padding:20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background-color:#444;
+    color:#f7c08a;
+}
+
+/* Showcase */
+#showcase{
+    background:url("../image_resources/showcase.jpg")no-repeat
+    center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content{
+    color:#fff;
+    padding-top:170px;
+    text-align: center;
+}
+#showcase .showcase-content h1{
+    font-size: 55px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+/* Home Info section*/
+#home-info{
+    height: 450px;
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    background: url("../image_resources/ihg.png") no-repeat
+    center center/cover;
+}
+#home-info .info-content{
+    float: right;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content h2{
+    font-size: 30px;
+    line-height: 1.2em;
+}
+#home-info .info-content p{
+    padding-bottom: 30px;
+    line-height: 1.7em;
+
+}
+/* Feature Box section*/
+#feature-info .box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 20px;
+}
+#feature-info i{
+    margin-bottom: 10px;
+}
+
+/* About section */
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius:50%;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testmonial Section */
+#testimonials{
+    background:url("../image_resources/test-bg.jpg") no-repeat 
+    center/cover;
+    max-height: 100%;
+    padding-top:40px;
+}
+#testimonials h2{
+    text-align: center;
+    color: #fff;
+    padding-bottom:40px;
+}
+
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom:40px;
+    border-radius: 25px 0 15px 0;
+    opacity: 0.9;
+}
+#testimonials .testimonial img{
+    width:100px;
+    float: left;
+    border-radius:50%;
+    margin-right:20px;
+}
+/* Contact Form */
+#contact-form .form-group{
+    margin-bottom:20px;
+}
+#contact-form label{
+    display:block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ddd;
+}
+#contact-form .form-group textarea{
+    height:200px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline:none;
+    border-color:#f7c08a;
+}
+/* contact info */
+#contact-info .box{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 20px;
+}
+#contact-info i{
+    margin-bottom: 10px;
+}
+/* Footer */
+.main-footer{
+    background: #444;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
